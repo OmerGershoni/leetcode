@@ -21,7 +21,7 @@ public:
             ++tLettersCount[t[i] - 'a'];
         }
 
-        for (int i = 0; i < s.size(); ++i)
+        for (int i = 0; i < NUM_OF_LETTERS; ++i)
         {
             if (sLettersCount[i] != tLettersCount[i])
             {
